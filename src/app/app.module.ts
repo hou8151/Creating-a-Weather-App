@@ -9,25 +9,23 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { WeatherReportComponentComponent } from './weather-report-component/weather-report-component.component';  // Import HttpClientModule
 import { MatCardModule } from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    WeatherReportComponentComponent,
-   
+    AppComponent 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatFormFieldModule,
     MatSelectModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
